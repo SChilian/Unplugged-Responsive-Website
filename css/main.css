@@ -134,11 +134,16 @@ h4 {
 
 p {
   font-size: .875em;
-  line-height: 1.125em;
+  line-height: 1.285em;
 }
 
 img {
+  width: 100%;
+}
 
+figure {
+  margin: 0;
+  /*width: 60%;*/
 }
 
 address {
@@ -146,10 +151,7 @@ address {
 
 }
 
-.centent-wrapper {
-  width: 90%;
-  margin: 50px 0;
-}
+
 
 
 /* -------------------- Base Header - Footer Styles -------------------- */
@@ -186,6 +188,7 @@ header nav {
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
+  padding-bottom: 15px;
 }
 
 header nav ul li {
@@ -242,6 +245,11 @@ footer .copyright {
 main .hero-image {
   display: flex;
   justify-content: center;
+  background-image: url("../img/unplugged-retreat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
 }
 
 .hero-image .content-wrapper {
@@ -297,6 +305,10 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+  background-image: url("../img/unplugged-retreat-features.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .features .content-wrapper {
@@ -337,18 +349,23 @@ features .features-items {
   background-color: #2a423a;
 }
 
-.reviews .content-wrapper {
+/*.reviews .content-wrapper {
   width: 90%;
-}
+}*/
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
   /*line-height: 1.875em;*/
 }
 
 .reviews h3 {
-  width: 55%;
+  width: 50%;
   margin: 20px 0;
+}
+
+.reviews figure {
+  margin: 0;
 }
 
 /* ------------------------------------ About Page ---------------------------------------- */
@@ -518,6 +535,7 @@ features .features-items {
 
     header figure {
       width: 30%;
+      /*max-height: 600px;*/
     }
 
     header nav {
@@ -535,6 +553,9 @@ features .features-items {
       display: none;
     }
 
+    feature {
+      width: 30%;
+    }
     /* Hero Area */
 
     .hero-image h1 {
@@ -542,6 +563,12 @@ features .features-items {
       line-height: 1em;
       margin: 0;
     }
+
+    main .hero-image {
+      min-height: 600px;
+    }
+
+  
 
     /*Aside*/
     aside .content-wrapper {
@@ -579,9 +606,10 @@ features .features-items {
 
     .reviews article {
       display: flex;
-      justify-content: space-between
+      justify-content: space-between;
     }
 
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -590,10 +618,14 @@ features .features-items {
       width: 85%;
     }
 
-    .review h3 {
+    .reviews h3 {
       width: 75%;
       margin: 0;
     }
+
+  
+
+  
 
     /* Footer*/
     footer .content-wrapper {
@@ -678,6 +710,11 @@ features .features-items {
       font-size: .875em;
       line-height: 1.125em;
     }
+
+
+    /*figure {
+      width: 60%;
+    }*/
 }
 
 
