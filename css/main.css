@@ -703,6 +703,9 @@ features .features-items {
       font-size: 1.5em;
     }
 
+    .maps figure {
+      padding-bottom: 45.5%;
+    }
 /* ------------------------------------ FAQ Page ---------------------------------------- */
   
     .faq .content-wrapper {
@@ -811,6 +814,10 @@ features .features-items {
 
 .contact-content h4 {
   font-size: 1.875em;
+}
+
+.maps figure {
+  padding-bottom: 37.5%;
 }
 
 /* ------------------------------------ FAQ Page ---------------------------------------- */
