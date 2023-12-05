@@ -322,7 +322,7 @@ input[type=button] {
   margin-bottom: 60px;
 }
 
-features .features-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -336,6 +336,11 @@ features .features-items {
 
 .features p{
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 
