@@ -87,9 +87,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .content-wrapper {
-outline: 3px dotted red;
+/*outline: 3px dotted red;*/
 width: 90%;
-margin: 50px;
+margin: 50px 0;
 }
 /* General Styles */
 
@@ -121,7 +121,8 @@ a{
 h2{
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
-  font-weight: 500%;
+  font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -129,7 +130,7 @@ h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
-  font-weight: 500%;
+  font-weight: 500;
 }
 
 p {
@@ -143,7 +144,7 @@ img {
 
 figure {
   margin: 0;
-  /*width: 60%;*/
+  width: 60%;
 }
 
 address {
@@ -172,9 +173,9 @@ header .content-wrapper {
 
 header .header-divider {
   width: 100%;
-  padding: 1px;
+  height: 1px;
   margin: 10px 0 20px 0;
-  color: #3a3a3a;
+  background: #3a3a3a;
 }
 
 header nav ul{
@@ -184,11 +185,10 @@ header nav ul{
 }
 
 header nav {
-  width: 60%;
+  width: 59%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
-  padding-bottom: 15px;
 }
 
 header nav ul li {
@@ -330,12 +330,12 @@ input[type=button] {
   margin-bottom: 60px;
 }
 
-.features .features-items {
+/*.features .features-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-}
+}*/
 
 .features article {
   width: 63%;
@@ -344,6 +344,7 @@ input[type=button] {
 
 .features p{
   margin: 0;
+  text-align: center;
 }
 
 .features i {
@@ -376,6 +377,7 @@ input[type=button] {
 
 .reviews figure {
   margin: 0;
+  width: 100%;
 }
 
 /* ------------------------------------ About Page ---------------------------------------- */
@@ -430,7 +432,7 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
-  line-height: 1.875em;
+  line-height: 1em;
 }
 
 .faq-content {
@@ -668,9 +670,10 @@ input[type=button] {
       margin-bottom: 0;
     }
 
-    /*footer .social {
-      width: 30%
-    }*/
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between
+    }
 
     footer .copyright {
       width: 100%;
